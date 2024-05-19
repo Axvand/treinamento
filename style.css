@@ -276,7 +276,7 @@ a{
       transform: translateY(600px);
     }
   }
-@keyframes Shot5 {
+@keyframes move5 {
     0% {
       transform: translateY(0);
     }
