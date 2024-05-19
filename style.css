@@ -1,0 +1,366 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+
+}
+a{
+    font-size: 2px;
+}
+.areaPlay{
+    width:100%;
+    border: 1px solid rgb(34, 255, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.card{
+    height: 650px;
+    width: 90px;
+    
+    padding-bottom: 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    border-radius: 20px;
+
+}
+.gun{
+    border: 1px solid red;
+    height: 50px;
+    width: 90px;
+    border-radius: 18px;
+    color:white;
+    z-index: 0;
+    
+}
+.emmo{
+    border: 1px solid rgb(0, 132, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 18px;
+    background: rgb(32, 0, 54);
+    position: fixed;
+}
+.emmo2{
+    border: 1px solid rgb(0, 132, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 18px;
+    background: rgb(32, 0, 54);
+    position: fixed;
+}
+
+.line1{
+    height: 605px;
+    width: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center ;
+}
+.bot{
+    border: 1px solid rgb(0, 132, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 18px;
+    background: rgb(32, 0, 54);
+    position: fixed;
+    /*animation: Move1;
+    animation-duration:40s;
+    position: fixed;*/
+}
+.bot1{
+    border: 1px solid rgb(0, 132, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 18px;
+    background: rgb(32, 0, 54);
+    position: fixed;
+    /*animation: Move1;
+    animation-duration:40s;
+    position: fixed;*/
+}
+.bot2{
+    border: 1px solid rgb(0, 132, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 18px;
+    background: rgb(32, 0, 54);
+    position: fixed;
+    /*animation: Move1;
+    animation-duration:40s;
+    position: fixed;*/
+}
+.bot3{
+    border: 1px solid rgb(0, 132, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 18px;
+    background: rgb(32, 0, 54);
+    position: fixed;
+    /*animation: Move1;
+    animation-duration:40s;
+    position: fixed;*/
+}
+
+
+
+
+
+
+/*shot Gun*/
+
+
+@keyframes Shot1 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot2 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot3 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot4 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot5 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot6 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot7 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot8 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot9 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot10 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot11 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot12 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot13 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot14 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+@keyframes Shot15 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-550px);
+    }
+  }
+
+
+
+/* bot moves*/
+
+@keyframes Move1 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move2 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move3 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move4 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Shot5 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move6 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move7 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move8 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move9 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move10 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move11 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move12 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move13 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move14 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
+@keyframes Move15 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(600px);
+    }
+  }
