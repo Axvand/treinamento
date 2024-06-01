@@ -19,7 +19,7 @@ a{
     
 }
 .card{
-    height: 650px;
+    height: 100vh;
     width: 90px;
     
     padding-bottom: 2px;

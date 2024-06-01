@@ -209,7 +209,7 @@ setInterval(() => {
     const timeNumber= parseInt(count1[0].innerHTML);
 
 
-}, time[TimeBot] )
+}, 2400 )
 
 
 
@@ -217,7 +217,7 @@ setInterval(() => {
     const randomNumber = Math.floor(Math.random() * 4) + 1;
     animationSetMovie(bot1,randomNumber-1)
     
-}, 2000);
+}, 2900);
 setInterval(() => {
     const randomNumber = Math.floor(Math.random() * 4) + 1;
     animationSetMovie(bot2,randomNumber-1)
