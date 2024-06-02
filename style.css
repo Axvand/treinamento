@@ -19,7 +19,7 @@ a{
     
 }
 .card{
-    height: 98vh;
+    height: 96vh;
     width: 90px;
     
     padding-bottom: 2px;
@@ -30,11 +30,11 @@ a{
     align-items: center;
 
     border-radius: 20px;
-    border: 1px solid red;
+    
 
 }
 .gun{
-    border: 1px solid red;
+    
     height: 70px;
     width: 90px;
     border-radius: 18px;
@@ -63,7 +63,7 @@ a{
 }
 
 .line1{
-    border: 1px solid red;
+    
     height: 580px;
     width: 80px;
     position: fixed;
