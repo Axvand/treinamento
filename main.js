@@ -1,6 +1,7 @@
 
 const button = document.querySelectorAll('.gun');
 const emmo = document.querySelectorAll('.emmo')
+const emmoImg = document.querySelectorAll('.emmoImg')
 const line = document.querySelectorAll('.line1')
 const bot = document.querySelectorAll(".bot")
 const bot1 = document.querySelectorAll(".bot1")
@@ -42,12 +43,12 @@ for(let x = 0 ; x<4 ; x++){
 }
 
 
-/*function...
-const addAtributeClass = (Element) =>{
+const addAtributeClass = (Element, value) =>{
     const atributo = document.createAttribute('class')
-    atributo.value = 'bot'
+    atributo.value = `${value}`
     Element.setAttributeNode(atributo)
-}*/
+ }
+ 
 //------------------------------------------------------
 
 //---atlz
@@ -58,9 +59,9 @@ setInterval(() => {
     const botPosition2  = bot[1].getBoundingClientRect();
     const botPosition3  = bot[2].getBoundingClientRect();
     const botPosition4  = bot[3].getBoundingClientRect();
-    const botPositionZ5  = bot[4].getBoundingClientRect();
+    const botPositionZ5 = bot[4].getBoundingClientRect();
     const botPositionZ6 = bot[5].getBoundingClientRect();
-    const botPositionZ7  = bot[6].getBoundingClientRect();
+    const botPositionZ7 = bot[6].getBoundingClientRect();
     const botPositionZ8 = bot[7].getBoundingClientRect();
 
     const emmoPosition1 = emmo[0].getBoundingClientRect();
@@ -93,36 +94,89 @@ setInterval(() => {
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
 
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
+
     }else if(emmoPosition1.bottom<botPosition2.bottom){
         bot[1].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
+
         
     }else if(emmoPosition1.bottom<botPosition3.bottom){
         bot[2].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
         
     }else if(emmoPosition1.bottom<botPosition4.bottom){
         bot[3].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
+
     }else if(emmoPosition1.bottom<botPositionZ5.bottom){
         bot[4].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
+
     }else if(emmoPosition1.bottom<botPositionZ6.bottom){
         bot[5].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
+
     }else if(emmoPosition1.bottom<botPositionZ7.bottom){
         bot[6].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
+
     }else if(emmoPosition1.bottom<botPositionZ8.bottom){
         bot[7].remove()
         var countt1 = parseInt(count1[0].innerHTML)
         count1[0].innerHTML=`${countt1+1}`
+
+        emmoImg[0].style.display='none'
+        setTimeout(() => {
+            emmoImg[0].style.display='flex'
+        }, 300);
+        console.log("on")
     }
 
     //======================================================
@@ -130,21 +184,48 @@ setInterval(() => {
         bot1[0].remove()
         var countt1 = parseInt(count1[1].innerHTML)
         count1[1].innerHTML=`${countt1+1}`
+
+
+        emmoImg[1].style.display='none'
+        setTimeout(() => {
+            emmoImg[1].style.display='flex'
+        }, 300);
+        console.log("on")
         
     }else if(emmoPosition2.bottom<botPosition6.bottom){
         bot1[1].remove()
         var countt1 = parseInt(count1[1].innerHTML)
         count1[1].innerHTML=`${countt1+1}`
+
+        emmoImg[1].style.display='none'
+        setTimeout(() => {
+            emmoImg[1].style.display='flex'
+        }, 300);
+        console.log("on")
+
         
     }else if(emmoPosition2.bottom<botPosition7.bottom){
         bot1[2].remove()
         var countt1 = parseInt(count1[1].innerHTML)
         count1[1].innerHTML=`${countt1+1}`
+
+        emmoImg[1].style.display='none'
+        setTimeout(() => {
+            emmoImg[1].style.display='flex'
+        }, 300);
+        console.log("on")
+
         
     }else if(emmoPosition2.bottom<botPosition8.bottom){
         bot1[3].remove()
         var countt1 = parseInt(count1[1].innerHTML)
         count1[1].innerHTML=`${countt1+1}`
+
+        emmoImg[1].style.display='none'
+        setTimeout(() => {
+            emmoImg[1].style.display='flex'
+        }, 300);
+        console.log("on")
     }
 
     //======================================================
@@ -152,43 +233,92 @@ setInterval(() => {
         bot2[0].remove()
         var countt1 = parseInt(count1[2].innerHTML)
         count1[2].innerHTML=`${countt1+1}`
+
+        emmoImg[2].style.display='none'
+        setTimeout(() => {
+            emmoImg[2].style.display='flex'
+        }, 300);
+        console.log("on")
         
     }else if(emmoPosition3.bottom<botPosition10.bottom){
         bot2[1].remove()
         var countt1 = parseInt(count1[2].innerHTML)
         count1[2].innerHTML=`${countt1+1}`
+
+        emmoImg[2].style.display='none'
+        setTimeout(() => {
+            emmoImg[2].style.display='flex'
+        }, 300);
+        console.log("on")
+
         
     }else if(emmoPosition3.bottom<botPosition11.bottom){
         bot2[2].remove()
         var countt1 = parseInt(count1[2].innerHTML)
         count1[2].innerHTML=`${countt1+1}`
+
+        emmoImg[2].style.display='none'
+        setTimeout(() => {
+            emmoImg[2].style.display='flex'
+        }, 300);
+        console.log("on")
         
     }else if(emmoPosition3.bottom<botPosition12.bottom){
         bot2[3].remove()
         var countt1 = parseInt(count1[2].innerHTML)
         count1[2].innerHTML=`${countt1+1}`
+
+        emmoImg[2].style.display='none'
+        setTimeout(() => {
+            emmoImg[2].style.display='flex'
+        }, 300);
+        console.log("on")
     }
     //======================================================
     if(emmoPosition4.bottom<botPosition13.bottom){
         bot3[0].remove()
         var countt1 = parseInt(count1[3].innerHTML)
         count1[3].innerHTML=`${countt1+1}`
+
+        emmoImg[3].style.display='none'
+        setTimeout(() => {
+            emmoImg[3].style.display='flex'
+        }, 300);
+        console.log("on")
         
         
     }else if(emmoPosition4.bottom<botPosition14.bottom){
         bot3[1].remove()
         var countt1 = parseInt(count1[3].innerHTML)
         count1[3].innerHTML=`${countt1+1}`
+
+        emmoImg[3].style.display='none'
+        setTimeout(() => {
+            emmoImg[3].style.display='flex'
+        }, 300);
+        console.log("on")
         
     }else if(emmoPosition4.bottom<botPosition15.bottom){
         bot3[2].remove()
         var countt1 = parseInt(count1[3].innerHTML)
         count1[3].innerHTML=`${countt1+1}`
+
+        emmoImg[3].style.display='none'
+        setTimeout(() => {
+            emmoImg[3].style.display='flex'
+        }, 300);
+        console.log("on")
         
     }else if(emmoPosition4.bottom<botPosition16.bottom){
         bot3[3].remove()
         var countt1 = parseInt(count1[3].innerHTML)
         count1[3].innerHTML=`${countt1+1}`
+
+        emmoImg[3].style.display='none'
+        setTimeout(() => {
+            emmoImg[3].style.display='flex'
+        }, 300);
+        console.log("on")
     }
 
 }, 50);
@@ -209,7 +339,7 @@ setInterval(() => {
     const timeNumber= parseInt(count1[0].innerHTML);
 
 
-}, 2400 )
+}, 1400 )
 
 
 
@@ -217,17 +347,17 @@ setInterval(() => {
     const randomNumber = Math.floor(Math.random() * 4) + 1;
     animationSetMovie(bot1,randomNumber-1)
     
-}, 2900);
+}, 1900);
 setInterval(() => {
     const randomNumber = Math.floor(Math.random() * 4) + 1;
     animationSetMovie(bot2,randomNumber-1)
     
-}, 2800);
+}, 1800);
 setInterval(() => {
     const randomNumber = Math.floor(Math.random() * 4) + 1;
     animationSetMovie(bot3,randomNumber-1)
     
-}, 2600);
+}, 1600);
 
 }
 
