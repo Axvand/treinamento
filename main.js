@@ -3,6 +3,7 @@ const button = document.querySelectorAll('.gun');
 const emmo = document.querySelectorAll('.emmo')
 const emmoImg = document.querySelectorAll('.emmoImg')
 const line = document.querySelectorAll('.line1')
+const botImg = document.querySelectorAll(".botImg")
 const bot = document.querySelectorAll(".bot")
 const bot1 = document.querySelectorAll(".bot1")
 const bot2 = document.querySelectorAll(".bot2")
@@ -43,13 +44,9 @@ for(let x = 0 ; x<4 ; x++){
 }
 
 
-const addAtributeClass = (Element, value) =>{
-    const atributo = document.createAttribute('class')
-    atributo.value = `${value}`
-    Element.setAttributeNode(atributo)
- }
- 
+    
 //------------------------------------------------------
+
 
 //---atlz
 
@@ -97,7 +94,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
     }else if(emmoPosition1.bottom<botPosition2.bottom){
@@ -108,7 +105,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
         
@@ -120,7 +117,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
     }else if(emmoPosition1.bottom<botPosition4.bottom){
@@ -131,7 +128,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
     }else if(emmoPosition1.bottom<botPositionZ5.bottom){
@@ -142,7 +139,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
     }else if(emmoPosition1.bottom<botPositionZ6.bottom){
@@ -153,7 +150,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
     }else if(emmoPosition1.bottom<botPositionZ7.bottom){
@@ -164,7 +161,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
     }else if(emmoPosition1.bottom<botPositionZ8.bottom){
@@ -175,7 +172,7 @@ setInterval(() => {
         emmoImg[0].style.display='none'
         setTimeout(() => {
             emmoImg[0].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
     }
 
@@ -189,7 +186,7 @@ setInterval(() => {
         emmoImg[1].style.display='none'
         setTimeout(() => {
             emmoImg[1].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
     }else if(emmoPosition2.bottom<botPosition6.bottom){
@@ -200,7 +197,7 @@ setInterval(() => {
         emmoImg[1].style.display='none'
         setTimeout(() => {
             emmoImg[1].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
         
@@ -212,7 +209,7 @@ setInterval(() => {
         emmoImg[1].style.display='none'
         setTimeout(() => {
             emmoImg[1].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
         
@@ -224,7 +221,7 @@ setInterval(() => {
         emmoImg[1].style.display='none'
         setTimeout(() => {
             emmoImg[1].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
     }
 
@@ -237,7 +234,7 @@ setInterval(() => {
         emmoImg[2].style.display='none'
         setTimeout(() => {
             emmoImg[2].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
     }else if(emmoPosition3.bottom<botPosition10.bottom){
@@ -248,7 +245,7 @@ setInterval(() => {
         emmoImg[2].style.display='none'
         setTimeout(() => {
             emmoImg[2].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
 
         
@@ -260,7 +257,7 @@ setInterval(() => {
         emmoImg[2].style.display='none'
         setTimeout(() => {
             emmoImg[2].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
     }else if(emmoPosition3.bottom<botPosition12.bottom){
@@ -271,7 +268,7 @@ setInterval(() => {
         emmoImg[2].style.display='none'
         setTimeout(() => {
             emmoImg[2].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
     }
     //======================================================
@@ -283,7 +280,7 @@ setInterval(() => {
         emmoImg[3].style.display='none'
         setTimeout(() => {
             emmoImg[3].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
         
@@ -295,7 +292,7 @@ setInterval(() => {
         emmoImg[3].style.display='none'
         setTimeout(() => {
             emmoImg[3].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
     }else if(emmoPosition4.bottom<botPosition15.bottom){
@@ -306,7 +303,7 @@ setInterval(() => {
         emmoImg[3].style.display='none'
         setTimeout(() => {
             emmoImg[3].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
         
     }else if(emmoPosition4.bottom<botPosition16.bottom){
@@ -317,7 +314,7 @@ setInterval(() => {
         emmoImg[3].style.display='none'
         setTimeout(() => {
             emmoImg[3].style.display='flex'
-        }, 300);
+        }, 600);
         console.log("on")
     }
 

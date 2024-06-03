@@ -40,7 +40,7 @@ a{
     color:white;
     z-index: 0;
     border: 1px solid red;
-    background: black;
+    background: rgba(0, 0, 0, 0.778);
     
 }
 .gunImg{
@@ -78,49 +78,51 @@ a{
 .case{
   background: rgb(0, 0, 0);
   height: 69px;
-  width: 69px;
+  width: 100px;
   z-index: 1;
+  position:fixed;
 }
 .bot{
-    border: 1px solid rgb(0, 132, 255);
     height: 60px;
     width: 60px;
     border-radius: 18px;
-    background: rgb(32, 0, 54);
     position: fixed;
-    /*animation: Move1;
-    animation-duration:40s;
-    position: fixed;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bot1{
-    border: 1px solid rgb(0, 132, 255);
-    height: 60px;
-    width: 60px;
-    border-radius: 18px;
-    background: rgb(32, 0, 54);
-    position: fixed;
+  height: 60px;
+  width: 60px;
+  border-radius: 18px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     /*animation: Move1;
     animation-duration:40s;
     position: fixed;*/
 }
 .bot2{
-    border: 1px solid rgb(0, 132, 255);
-    height: 60px;
-    width: 60px;
-    border-radius: 18px;
-    background: rgb(32, 0, 54);
-    position: fixed;
+  height: 60px;
+  width: 60px;
+  border-radius: 18px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     /*animation: Move1;
     animation-duration:40s;
     position: fixed;*/
 }
 .bot3{
-    border: 1px solid rgb(0, 132, 255);
-    height: 60px;
-    width: 60px;
-    border-radius: 18px;
-    background: rgb(32, 0, 54);
-    position: fixed;
+  height: 60px;
+  width: 60px;
+  border-radius: 18px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     /*animation: Move1;
     animation-duration:40s;
     position: fixed;*/
